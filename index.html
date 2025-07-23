@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猎聘服务平台</title>
+    <style>
+        
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #1E88E5;
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            float: left;
+        }
+        .nav {
+            float: right;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .hero {
+            background: linear-gradient(135deg, #1E88E5, #0D47A1);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #FF9800;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #F57C00;
+        }
+        .features {
+            padding: 60px 0;
+        }
+        .feature-box {
+            width: 30%;
+            float: left;
+            margin-right: 5%;
+            text-align: center;
+        }
+        .feature-box:last-child {
+            margin-right: 0;
+        }
+        .feature-icon {
+            font-size: 48px;
+            color: #1E88E5;
+            margin-bottom: 20px;
+        }
+        .how-it-works {
+            background-color: #f5f5f5;
+            padding: 60px 0;
+        }
+        .step {
+            margin-bottom: 30px;
+        }
+        .step-number {
+            display: inline-block;
+            background-color: #1E88E5;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 15px;
+        }
+        .footer {
+            background-color: #263238;
+            color: #ECEFF1;
+            padding: 40px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container clearfix">
+            <div class="logo">猎聘</div>
+            <nav class="nav">
+                <a href="#">首页</a>
+                <a href="#">企业服务</a>
+                <a href="#">人才库</a>
+                <a href="#">解决方案</a>
+                <a href="#">关于我们</a>
+                <a href="#">登录/注册</a>
+            </nav>
+
+
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>连接优秀人才与企业</h1>
+            <p>猎聘 - 中国领先的中高端人才招聘平台，助力企业快速找到合适人才</p>
+            <a href="#" class="btn">免费发布职位</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container clearfix">
+            <div class="feature-box">
+                <div class="feature-icon">🔍</div>
+                <h3>精准匹配</h3>
+                <p>基于AI算法的智能匹配系统，精准推荐符合职位要求的人才</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">👥</div>
+                <h3>庞大人才库</h3>
+                <p>拥有超过6000万中高端人才简历，覆盖各行业各领域</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">📊</div>
+                <h3>数据分析</h3>
+                <p>提供招聘数据分析和行业薪酬报告，助力企业决策</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="how-it-works">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px;">猎聘服务流程</h2>
+            
+            <div class="step">
+                <span class="step-number">1</span>
+                <h3 style="display: inline-block;">发布职位需求</h3>
+                <p>填写职位信息，设置筛选条件，系统自动匹配候选人</p>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">2</span>
+                <h3 style="display: inline-block;">人才推荐</h3>
+                <p>猎头顾问人工筛选，推荐最匹配的候选人简历</p>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">3</span>
+                <h3 style="display: inline-block;">面试安排</h3>
+                <p>协助安排面试时间，提供面试评估报告</p>
+            </div>
+            
+            <div class="step">
+                <span class="step-number">4</span>
+                <h3 style="display: inline-block;">入职跟进</h3>
+                <p>跟踪候选人入职情况，提供保障期服务</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section style="padding: 60px 0; text-align: center;">
+        <div class="container">
+            <h2>服务过的知名企业</h2>
+            <p style="margin-bottom: 40px;">我们已为各行业领先企业提供专业招聘服务</p>
+            <div>
+                <span style="display: inline-block; margin: 0 20px; font-weight: bold;">阿里巴巴</span>
+                <span style="display: inline-block; margin: 0 20px; font-weight: bold;">腾讯</span>
+                <span style="display: inline-block; margin: 0 20px; font-weight: bold;">华为</span>
+                <span style="display: inline-block; margin: 0 20px; font-weight: bold;">字节跳动</span>
+                <span style="display: inline-block; margin: 0 20px; font-weight: bold;">美团</span>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 猎聘 版权所有</p>
+            <p>联系电话：400-820-5100 | 邮箱：service@liepin.com</p>
+             <p>地址：北京市朝阳区望京SOHO</p> 
+        </div>
+    </footer>
+</body>
+</html>
